@@ -10,4 +10,5 @@
  <b>Soil Moisture Monitoring: </b> Uses a soil moisture sensor to measure soil humidity.<br>
  <b>OLED Display: </b> Displays the collected data on a 128x64 OLED screen.<br>
  <b>Cloud Integration: </b> Sends the collected data to the Anedya cloud for real-time monitoring and analysis. </div>
+ 
 
