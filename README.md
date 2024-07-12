@@ -33,7 +33,7 @@ Hardware Connections <br> <br>
 
 VCC to +5V <br>
 GND to GND <br>
-Data to GPIO D5 <br>
+Data to GPIO D3 <br>
 <br>
  <b> GUVA-S12SD UV Sensor: </b> <br>
 
