@@ -80,7 +80,7 @@ Adafruit_SSD1306.h <br>
 <br>
 <b> Upload Code to NodeMCU </b> <br>
 
-<p>Open the<b> weather_monitoring.ino </b> file in the Arduino IDE. Configure your WiFi credentials and Anedya IoT Cloud API endpoint in the code. Then upload the code to your NodeMCU. This file is available in Firmware folder.</p> <br>
+<p>Open the<strong></strong> weather_monitoring.ino </strong> file in the Arduino IDE. Configure your WiFi credentials and Anedya IoT Cloud API endpoint in the code. Then upload the code to your NodeMCU. This file is available in Firmware folder.</p> <br>
 <br>
  
 <b> Set Up Anedya IoT Cloud </b> <br>
@@ -97,7 +97,7 @@ Set up a new project and configure the endpoints for data reception.<br>
 
 streamlit run dashboard.py </i>
 
-The dashboard.py script should be located in the root directory of the cloned repository. <br>
+The <strong>dashboard.py </strong>script should be located in the root directory of the cloned repository. <br>
 
 <br>
 <br>
