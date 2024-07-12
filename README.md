@@ -28,26 +28,26 @@ CD4051 IC Multiplexer <br>
 
 <b> Setup Instructions </b>
 <br>
-Hardware Connections <br>
-<b> DHT22 Sensor:</b> 
+Hardware Connections <br> <br>
+<b> DHT22 Sensor:</b>  <br>
 
 VCC to +5V <br>
 GND to GND <br>
 Data to GPIO D5 <br>
 <br>
- <b> GUVA-S12SD UV Sensor: </b>
+ <b> GUVA-S12SD UV Sensor: </b> <br>
 
 VCC to +5V  <br>
 GND to GND <br>
 Signal to CD4051 multiplexer input ch0 <br> 
 
- <b> BMP180 Sensor: </b> <
+ <b> BMP180 Sensor: </b> <br>
 VCC to +5V  <br>
 GND to GND <br>
 SDA to GPIO D2 <br>
 SCL to GPIO D1 <br>
 <br>
- <b> Soil Moisture Sensor: </b> 
+ <b> Soil Moisture Sensor: </b>  <br>
 VCC to +5V  <br>
 GND to GND <br>
 Signal to CD4051 multiplexer input ch1 <br>
