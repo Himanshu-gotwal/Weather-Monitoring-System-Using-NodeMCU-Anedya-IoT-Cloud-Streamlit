@@ -27,35 +27,34 @@ CD4051 IC Multiplexer <br>
 <b> Setup Instructions </b>
 <br>
 Hardware Connections <br>
-DHT22 Sensor: <br>
+<b> DHT22 Sensor: <br>
 
 VCC to +5V <br>
 GND to GND <br>
 Data to GPIO D5 <br>
 <br>
-GUVA-S12SD UV Sensor:<br>
+ <b> GUVA-S12SD UV Sensor:<br>
 
 VCC to +5V  <br>
 GND to GND <br>
 Signal to CD4051 multiplexer input <br> 
 
-BMP180 Sensor: <br>
+ <b> BMP180 Sensor: <br>
 VCC to +5V  <br>
 GND to GND <br>
 SDA to GPIO D2 <br>
 SCL to GPIO D1 <br>
 <br>
-Soil Moisture Sensor: <br>
+ <b> Soil Moisture Sensor: <br>
 VCC to +5V  <br>
 GND to GND <br>
 Signal to CD4051 multiplexer input <br>
 <br>
-CD4051 IC Multiplexer: <br>
-Connect signal inputs from analog sensors <br>
-Control pins to GPIO pins on NodeMCU <br>
-Output to A0 (analog input pin) on NodeMCU <br>
+ <b> CD4051 IC Multiplexer: <br>
+Connect signal inputs from analog sensors uv sensor = ch0 and ch1= soil moisture sensor <br>
+Control pins to GPIO pins on NodeMCU Output to A0 (analog input pin) on NodeMCU <br>
 <br>
-0.96-inch OLED Display: <br>
+<b>0.96-inch OLED Display:  <b/> <br>
 VCC to +5V  <br>
 GND to GND <br>
 SDA to GPIO D2 <br>
@@ -79,7 +78,7 @@ Adafruit_SSD1306.h <br>
 <br>
 <b> Upload Code to NodeMCU </b> <br>
 
-<p>Open the weather_monitoring.ino file in the Arduino IDE. Configure your WiFi credentials and Anedya IoT Cloud API endpoint in the code. Then upload the code to your NodeMCU. this file is avalable in Firmware folder.</p> <br>
+<p>Open the weather_monitoring.ino file in the Arduino IDE. Configure your WiFi credentials and Anedya IoT Cloud API endpoint in the code. Then upload the code to your NodeMCU. This file is available in Firmware folder.</p> <br>
 <br>
  
 <b> Set Up Anedya IoT Cloud </b> <br>
@@ -92,9 +91,9 @@ Set up a new project and configure the endpoints for data reception.<br>
  Ensure you have Python and pip installed. Then install Streamlit and run the dashboard.
 </p> <br>
 
-pip install streamlit <br>
+ <i> pip install streamlit <br>
 
-streamlit run dashboard.py <br> 
+streamlit run dashboard.py </i>
 
 The dashboard.py script should be located in the root directory of the cloned repository. <br>
 
