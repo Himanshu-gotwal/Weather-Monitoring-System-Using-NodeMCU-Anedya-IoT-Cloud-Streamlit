@@ -4,6 +4,8 @@
 
 <h3> Overview </h3>
 This repository contains the code and documentation for a comprehensive Weather Monitoring and Reporting System. The system uses a NodeMCU (ESP8266) to collect environmental data from various sensors, stores the data on Anedya IoT Cloud, and visualizes it in real-time using a Streamlit dashboard.
+<br>
+
 
 <b> Features </b>
 <b>Real-time Monitoring:</b> Measures temperature, humidity, UV index, atmospheric pressure, and soil moisture levels. <br>
@@ -27,34 +29,34 @@ CD4051 IC Multiplexer <br>
 <b> Setup Instructions </b>
 <br>
 Hardware Connections <br>
-<b> DHT22 Sensor:</b> <br>
+<b> DHT22 Sensor:</b> 
 
 VCC to +5V <br>
 GND to GND <br>
 Data to GPIO D5 <br>
 <br>
- <b> GUVA-S12SD UV Sensor: </b><br>
+ <b> GUVA-S12SD UV Sensor: </b>
 
 VCC to +5V  <br>
 GND to GND <br>
-Signal to CD4051 multiplexer input <br> 
+Signal to CD4051 multiplexer input ch0 <br> 
 
- <b> BMP180 Sensor: </b> <br>
+ <b> BMP180 Sensor: </b> <
 VCC to +5V  <br>
 GND to GND <br>
 SDA to GPIO D2 <br>
 SCL to GPIO D1 <br>
 <br>
- <b> Soil Moisture Sensor: </b> <br>
+ <b> Soil Moisture Sensor: </b> 
 VCC to +5V  <br>
 GND to GND <br>
-Signal to CD4051 multiplexer input <br>
+Signal to CD4051 multiplexer input ch1 <br>
 <br>
  <b> CD4051 IC Multiplexer: </b> <br>
 Connect signal inputs from analog sensors uv sensor = ch0 and ch1= soil moisture sensor <br>
 Control pins to GPIO pins on NodeMCU Output to A0 (analog input pin) on NodeMCU <br>
 <br>
-<b>0.96-inch OLED Display:  <b/> <br>
+<b>0.96-inch OLED Display: </b> 
 VCC to +5V  <br>
 GND to GND <br>
 SDA to GPIO D2 <br>
