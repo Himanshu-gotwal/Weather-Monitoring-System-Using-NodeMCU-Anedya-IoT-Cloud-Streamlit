@@ -80,7 +80,7 @@ Adafruit_SSD1306.h <br>
 <br>
 <b> Upload Code to NodeMCU </b> <br>
 
-<p>Open the weather_monitoring.ino file in the Arduino IDE. Configure your WiFi credentials and Anedya IoT Cloud API endpoint in the code. Then upload the code to your NodeMCU. This file is available in Firmware folder.</p> <br>
+<p>Open the<b> weather_monitoring.ino </b> file in the Arduino IDE. Configure your WiFi credentials and Anedya IoT Cloud API endpoint in the code. Then upload the code to your NodeMCU. This file is available in Firmware folder.</p> <br>
 <br>
  
 <b> Set Up Anedya IoT Cloud </b> <br>
