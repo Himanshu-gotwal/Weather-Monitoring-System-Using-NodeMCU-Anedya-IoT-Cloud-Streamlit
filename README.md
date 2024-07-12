@@ -27,30 +27,30 @@ CD4051 IC Multiplexer <br>
 <b> Setup Instructions </b>
 <br>
 Hardware Connections <br>
-<b> DHT22 Sensor: <br>
+<b> DHT22 Sensor:</b> <br>
 
 VCC to +5V <br>
 GND to GND <br>
 Data to GPIO D5 <br>
 <br>
- <b> GUVA-S12SD UV Sensor:<br>
+ <b> GUVA-S12SD UV Sensor: </b><br>
 
 VCC to +5V  <br>
 GND to GND <br>
 Signal to CD4051 multiplexer input <br> 
 
- <b> BMP180 Sensor: <br>
+ <b> BMP180 Sensor: </b> <br>
 VCC to +5V  <br>
 GND to GND <br>
 SDA to GPIO D2 <br>
 SCL to GPIO D1 <br>
 <br>
- <b> Soil Moisture Sensor: <br>
+ <b> Soil Moisture Sensor: </b> <br>
 VCC to +5V  <br>
 GND to GND <br>
 Signal to CD4051 multiplexer input <br>
 <br>
- <b> CD4051 IC Multiplexer: <br>
+ <b> CD4051 IC Multiplexer: </b> <br>
 Connect signal inputs from analog sensors uv sensor = ch0 and ch1= soil moisture sensor <br>
 Control pins to GPIO pins on NodeMCU Output to A0 (analog input pin) on NodeMCU <br>
 <br>
