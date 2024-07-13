@@ -94,7 +94,7 @@ def drawDashboard():
     with headercols[1]:
         st.button("Refresh")
 
-    st.markdown("This dashboard provides a live view of Himanshu Room temperature and humidity.")
+    #st.markdown("This dashboard provides a live view of Himanshu Room temperature and humidity.")
 
     st.subheader(body="Current Status", anchor=False)
     cols = st.columns(3, gap="medium")
